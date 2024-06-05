@@ -24,7 +24,7 @@ To download the code, you can visit the following file path:-   (https://github.
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at (https://remix.ethereum.org/.)
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Meta.sol). Copy and paste the following code into the file: contract MyToken {
-
+```
 // public variables here
 string public tokenName = "Trustcoin";
 string public tokenAbb = "TRT";
@@ -47,6 +47,8 @@ function burn(address _address, uint _value) public{
     } 
 
 } }
+
+ ```
 
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.25" (or another compatible version), and then click on the "Compile Meta.sol" button.
