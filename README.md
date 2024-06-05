@@ -31,19 +31,19 @@ string public tokenAbb = "TRT";
 uint public totalSupply = 0;
 
 // mapping variable here
-mapping(address=>uint) public bal;
+mapping(address=>uint) public sag;
 
 // mint function
 function mint(address _address, uint _value) public{
     totalSupply += _value;
-    bal[_address] += _value;
+    sag[_address] += _value;
 
 }
 // burn function
 function burn(address _address, uint _value) public{
-    if(bal[_address]>= _value){
+    if(sag[_address]>= _value){
         totalSupply -= _value;
-        bal[_address] -= _value;
+        sag[_address] -= _value;
     } 
 
 } }
