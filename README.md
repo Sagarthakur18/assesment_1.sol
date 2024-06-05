@@ -16,12 +16,12 @@ This contract provides a foundational framework for developing a token system, w
 ## Getting Started
 
 ### Installing
-To download the code, you can visit the following file path:-  [] (https://github.com/Sagarthakur18/assesment_1.sol/blob/main/assesment_1.sol)
+To download the code, you can visit the following file path:-   (https://github.com/Sagarthakur18/assesment_1.sol/blob/main/assesment_1.sol)
 
 
 ### Executing program
 
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at (https://remix.ethereum.org/.)
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Meta.sol). Copy and paste the following code into the file: contract MyToken {
 
@@ -60,7 +60,7 @@ Once the contract is deployed, you will set the value and address in right side 
 ## Authors
 
 Sagar Thakur 
-@sagar_thakur_0613
+(@sagar_thakur_0613)
 
 
 
